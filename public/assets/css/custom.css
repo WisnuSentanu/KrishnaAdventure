@@ -1,0 +1,144 @@
+.custom-header {
+    background-color: white; /* Warna latar belakang header */
+    color: black; /* Warna teks header */
+    padding: 30px 0;
+    position: fixed; /* Menjadikan header tetap terlihat saat scroll */
+    top: 0; /* Memastikan header tetap di atas */
+    left: 0; /* Memastikan header tetap di kiri */
+    right: 0; /* Memastikan header tetap di kanan */
+    z-index: 1000; /* Pastikan header berada di atas konten lainnya */
+}
+  
+  .custom-nav-link {
+    color: black; /* Warna teks untuk link */
+  }
+  
+  .custom-nav-link:hover {
+    color: #6495ED; /* Warna saat hover */
+  }
+  
+  .custom-navbar-nav {
+    margin: 0; /* Menghapus margin */
+    padding: 0; /* Menghapus padding */
+    list-style: none; /* Menghapus bullet point */
+    display: flex; /* Menggunakan flexbox untuk daftar */
+}
+  
+.custom-nav-item {
+    margin-right: 20px; /* Jarak antar item */
+}
+
+  .page-description {
+    float: right; /* Mengapung ke kanan */
+    color: black; /* Warna teks */
+    margin-top: 10px; /* Jarak atas */
+}
+
+.custom-navbar-nav-wrap {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: flex-end; /* Memindahkan semua item ke kanan */
+    align-items: center; /* Memastikan semua item vertikal terpusat */
+    width: 100%; /* Pastikan lebar 100% */
+}
+
+.custom-nav-item.active .custom-nav-link {
+    color: #6495ED; /* Ganti warna sesuai kebutuhan */
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+/* Styling for recent posts */
+.recent-post {
+  margin-bottom: 20px;
+}
+
+.recent-post h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.recent-post p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.col-lg-8 {
+  flex: 0 0 66.6667%; /* Main content width: 8/12 columns */
+  max-width: 66.6667%;
+}
+
+.col-lg-4 {
+  flex: 0 0 33.3333%; /* Sidebar width: 4/12 columns */
+  max-width: 33.3333%;
+}
+
+.recent-related-posts {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+
+.recent-related-posts h4 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.recent-related-posts ul {
+  padding-left: 0;
+}
+
+.recent-related-posts ul li {
+  margin-bottom: 10px;
+}
+
+.recent-related-posts ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.recent-related-posts ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-info .container {
+  margin-bottom: 30px;
+  text-align: left; /* Untuk memastikan konten utama rata kiri */
+}
+
+.contact-details {
+  text-align: left; /* Rata kiri untuk konten contact details */
+}
+
+.contact-details h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-contacts {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Rata kiri untuk kontak */
+}
+
+.footer-contacts li {
+  margin-bottom: 10px;
+}
+
+.unit {
+  display: flex;
+  align-items: center;
+}
+
+.unit-left {
+  margin-right: 10px;
+}
+
+.parallax-content {
+  background-color: #F0FFFF;
+}
